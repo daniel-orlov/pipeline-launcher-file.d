@@ -1,0 +1,16 @@
+pipelines:
+  bloody_pipeline:
+    settings:
+      decoder: raw
+    input:
+      type: file
+      watching_dir: /home/daniel-orlov/GolandProjects/log-generator/fakelogs/tiny
+      offsets_file: /home/daniel-orlov/GolandProjects/log-generator/fakelogs/offsets.yaml
+      filename_pattern: "*.log"
+      persistence_mode: async
+#    actions:
+#      - type: parse_nginx_logs
+#        match_fields:
+#          level: /info/
+    output:
+      type: stdout
