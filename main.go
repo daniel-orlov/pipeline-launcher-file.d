@@ -9,7 +9,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	_ "github.com/daniel-orlov/parser_plugin_file.d"
+	_ "github.com/daniel-orlov/parser-plugin-file.d"
 	//_ "github.com/ozonru/file.d/plugin/action/discard"
 	_ "github.com/ozonru/file.d/plugin/input/file"
 	//_ "github.com/ozonru/file.d/plugin/input/http"
