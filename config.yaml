@@ -1,5 +1,5 @@
 pipelines:
-  bloody_pipeline:
+  awesome_pipeline:
     settings:
       decoder: raw
     input:
@@ -13,4 +13,4 @@ pipelines:
 #        match_fields:
 #          level: /info/
     output:
-      type: stdout
+      type: new_stdout

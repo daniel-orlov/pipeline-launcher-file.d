@@ -9,6 +9,7 @@ import (
 	"os/signal"
 	"syscall"
 
+	_ "github.com/daniel-orlov/output-plugin-file.d"
 	_ "github.com/daniel-orlov/parser-plugin-file.d"
 	//_ "github.com/ozonru/file.d/plugin/action/discard"
 	_ "github.com/ozonru/file.d/plugin/input/file"
@@ -18,7 +19,7 @@ import (
 	//_ "github.com/ozonru/file.d/plugin/output/elasticsearch"
 	//_ "github.com/ozonru/file.d/plugin/output/gelf"
 	//_ "github.com/ozonru/file.d/plugin/output/kafka"
-	_ "github.com/ozonru/file.d/plugin/output/stdout"
+	//_ "github.com/ozonru/file.d/plugin/output/stdout"
 )
 
 var (
